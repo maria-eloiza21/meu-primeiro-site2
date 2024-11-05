@@ -1,0 +1,60 @@
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #fff;
+color: rgb(43, 87, 16);
+}
+.destaque{
+    background-color: #90ee90;
+    font: weight 30px;
+}
+.card{
+    background-color: white;
+    border: 1px solid #90ee90;
+    border-radius: 8px;
+    margin: 20px;
+    padding:  20px;
+}
+nav{
+    background-color: #246c10;
+    padding: 10px 20px;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu li{
+margin-right: 20px;
+}
+.menu a{
+color: white;
+text-decoration: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin: 10px 0 5px;
+}
+input,textarea{
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #1ba236;
+}
+.logo{
+    width: 90px;
+    height: auto;
+    margin: 10px;
+    }
+    .logo-container{
+        display: flex;
+        align-items: center;
+    }
+    .nome{
+        font-size: 24px;
+        color: #228b22;
+    }
